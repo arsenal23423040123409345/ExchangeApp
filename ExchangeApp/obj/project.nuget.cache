@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gy4kXnvfNJiLldlfSC+M96igp5OE+LA7Vs5EunDQKW/nKt0OSf7rrWLijhTvmkEJL+kadinBLzCLe/GWRc9DuQ==",
+  "dgSpecHash": "KJ6J1+khwYn/921Xu5xU2xLc+M9kJ23xLHBI1wON0uT/wKCroUEhCoNUDvetL1PY6xfeqS9WyCqSoJd9B32eug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arsen\\source\\repos\\ExchangeApp\\ExchangeApp\\ExchangeApp.csproj",
+  "projectFilePath": "C:\\Users\\Arsen\\OneDrive - lnu.edu.ua\\Робочий стіл\\exchange\\ExchangeApp\\ExchangeApp\\ExchangeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arsen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Arsen\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

@@ -38,7 +38,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - ExchangeApp 
+            &copy; 2021 - ExchangeApp
         </div>
     </footer>
 
@@ -53,7 +53,7 @@
 
         //creating async function
         async function currencyAsync() {
-            //read currency api 
+            //read currency api
             const res = await fetch(API_URL);
             const data = await res.json();
             const arrKeys = Object.keys(data.rates);
@@ -81,6 +81,29 @@
         };
 
         currencyAsync();
+    </script>
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
     </script>
     @RenderSection("Scripts", required: false)
 </body>

@@ -1,87 +1,9 @@
 [
   {
-    "FromAmount": "777",
-    "FromCurrency": "IDR",
-    "ToAmount": "0.07053980224785894",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T14:56:50.9224203+02:00"
-  },
-  {
-    "FromAmount": "7778",
+    "FromAmount": "0",
     "FromCurrency": "CAD",
-    "ToAmount": "7777.999999999999",
+    "ToAmount": "0",
     "ToCurrency": "CAD",
-    "Date": "2021-02-11T14:57:03.3352219+02:00"
-  },
-  {
-    "FromAmount": "55",
-    "FromCurrency": "DKK",
-    "ToAmount": "11.384104446506125",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T16:38:23.5660594+02:00"
-  }
-,
-  {
-    "FromAmount": "234",
-    "FromCurrency": "PHP",
-    "ToAmount": "6.182011017865418",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T16:46:15.0877394+02:00"
-  }
-,
-  {
-    "FromAmount": "455",
-    "FromCurrency": "CAD",
-    "ToAmount": "455",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T16:46:17.5275947+02:00"
-  }
-,
-  {
-    "FromAmount": "69.48680555555556",
-    "FromCurrency": "CAD",
-    "ToAmount": "455",
-    "ToCurrency": "SEK",
-    "Date": "2021-02-11T16:46:20.0956071+02:00"
-  }
-,
-  {
-    "FromAmount": "0.051667832070036085",
-    "FromCurrency": "CAD",
-    "ToAmount": "11.999999999999998",
-    "ToCurrency": "HUF",
-    "Date": "2021-02-11T16:50:04.2395005+02:00"
-  }
-,
-  {
-    "FromAmount": "0.051667832070036085",
-    "FromCurrency": "CAD",
-    "ToAmount": "11.999999999999998",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T16:50:43.4044528+02:00"
-  }
-,
-  {
-    "FromAmount": "0.6076335615850625",
-    "FromCurrency": "CAD",
-    "ToAmount": "23.000000000000004",
-    "ToCurrency": "PHP",
-    "Date": "2021-02-11T16:56:03.6083602+02:00"
-  }
-,
-  {
-    "FromAmount": "88",
-    "FromCurrency": "RON",
-    "ToAmount": "27.787003610108304",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T16:58:51.4890031+02:00"
-  }
-,
-  {
-    "FromAmount": "777",
-    "FromCurrency": "CZK",
-    "ToAmount": "46.298192374685506",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T17:00:37.4601938+02:00"
+    "Date": "2021-02-11T18:32:01.5867094+02:00"
   }
 ]
