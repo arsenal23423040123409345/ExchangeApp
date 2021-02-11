@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div class="text-center">
+        <div class="sect">
+            <input type="text" asp-for="Exchanges.FromAmount" placeholder="Enter amount" />
+            <select asp-for="Exchanges.FromCurrency" class="ui dropdown"></select>
+        </div>
+
+        <img src="~/images/exchange.png" style="
+            height: 40px;
+            width: 40px;
+            margin: 0px 10px 0px;" />
+
+        <div class="sect">
+            <input type="text" asp-for="Exchanges.ToAmount" placeholder="Enter amount" />
+            <select asp-for="Exchanges.ToCurrency" class="ui dropdown"></select>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn">
+             Save Exchange
+        </button>
+    </div>
+</form>
+

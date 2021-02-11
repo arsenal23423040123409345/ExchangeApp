@@ -1,0 +1,40 @@
+﻿@page
+@model ExchangeApp.Pages.HistoryModel
+@{
+    ViewData["Title"] = "Exchange History";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<table class="styled-table" style="        
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);">
+    <thead>
+        <tr>
+            <th>FromAmount</th>
+            <th>FromCurrency</th>
+            <th>ToAmount</th>
+            <th>ToCurrency</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var exchange in Model.History)
+    {
+        <tr class="active-row">
+            <td>@exchange.FromAmount</td>
+            <td>@exchange.FromCurrency</td>
+            <td>@exchange.ToAmount</td>
+            <td>@exchange.ToCurrency</td>
+            <td>@exchange.Date</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+
