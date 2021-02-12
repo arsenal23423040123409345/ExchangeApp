@@ -21,6 +21,7 @@ namespace ExchangeApp.Pages
 
         public void OnGet()
         {
+            History = new List<Exchange>();
             string dir = "./Database";
             string serializationFile = Path.Combine(dir, "path.txt");
             string json = System.IO.File.ReadAllText(serializationFile);

@@ -24,16 +24,29 @@
         </tr>
     </thead>
     <tbody>
-    @foreach (var exchange in Model.History)
-    {
-        <tr class="active-row">
-            <td>@exchange.FromAmount</td>
-            <td>@exchange.FromCurrency</td>
-            <td>@exchange.ToAmount</td>
-            <td>@exchange.ToCurrency</td>
-            <td>@exchange.Date</td>
-        </tr>
-    }
+        @if (Model.History == null)
+        {
+            <tr class="active-row">
+                <td>No info yet</td>
+                <td>No info yet</td>
+                <td>No info yet</td>
+                <td>No info yet</td>
+                <td>No info yet</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var exchange in Model.History)
+            {
+                <tr class="active-row">
+                    <td>@exchange.FromAmount</td>
+                    <td>@exchange.FromCurrency</td>
+                    <td>@exchange.ToAmount</td>
+                    <td>@exchange.ToCurrency</td>
+                    <td>@exchange.Date</td>
+                </tr>
+            }
+        }
     </tbody>
 </table>
 

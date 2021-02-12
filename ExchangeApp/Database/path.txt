@@ -1,9 +1,0 @@
-[
-  {
-    "FromAmount": "0",
-    "FromCurrency": "CAD",
-    "ToAmount": "0",
-    "ToCurrency": "CAD",
-    "Date": "2021-02-11T18:32:01.5867094+02:00"
-  }
-]
